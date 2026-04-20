@@ -1,0 +1,54 @@
+<svg width="860" height="760" viewBox="0 0 860 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="760" rx="40" fill="#071221"/>
+  <rect x="28" y="28" width="804" height="704" rx="32" fill="url(#bg)"/>
+  <g opacity="0.8">
+    <circle cx="700" cy="122" r="92" fill="url(#orb1)"/>
+    <circle cx="196" cy="190" r="112" fill="url(#orb2)"/>
+    <circle cx="612" cy="572" r="134" fill="url(#orb3)"/>
+  </g>
+  <rect x="90" y="104" width="360" height="552" rx="30" fill="#0A1A2E" stroke="#48EFFF" stroke-opacity="0.25"/>
+  <rect x="110" y="130" width="320" height="40" rx="20" fill="#102540"/>
+  <circle cx="136" cy="150" r="7" fill="#3CF3FF"/>
+  <circle cx="160" cy="150" r="7" fill="#2F87FF"/>
+  <circle cx="184" cy="150" r="7" fill="#80FBFF"/>
+  <rect x="120" y="200" width="300" height="180" rx="26" fill="#0E243F"/>
+  <circle cx="270" cy="290" r="72" fill="#081525" stroke="#6FF7FF" stroke-width="16"/>
+  <circle cx="270" cy="290" r="48" fill="#07111F"/>
+  <text x="270" y="302" fill="white" font-family="Arial, sans-serif" font-size="30" text-anchor="middle">91%</text>
+  <rect x="120" y="408" width="142" height="122" rx="22" fill="#102540"/>
+  <rect x="278" y="408" width="142" height="122" rx="22" fill="#102540"/>
+  <rect x="120" y="552" width="300" height="74" rx="22" fill="#102540"/>
+  <rect x="486" y="154" width="280" height="156" rx="28" fill="#0B1E35" stroke="#48EFFF" stroke-opacity="0.2"/>
+  <rect x="506" y="182" width="86" height="10" rx="5" fill="#6FF7FF"/>
+  <rect x="506" y="212" width="228" height="18" rx="9" fill="#183454"/>
+  <rect x="506" y="240" width="182" height="12" rx="6" fill="#244D78"/>
+  <rect x="486" y="338" width="280" height="164" rx="28" fill="#0B1E35" stroke="#48EFFF" stroke-opacity="0.2"/>
+  <path d="M526 450L568 410L612 432L662 374L722 396" stroke="#6FF7FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="526" cy="450" r="10" fill="#6FF7FF"/>
+  <circle cx="568" cy="410" r="10" fill="#6FF7FF"/>
+  <circle cx="612" cy="432" r="10" fill="#6FF7FF"/>
+  <circle cx="662" cy="374" r="10" fill="#6FF7FF"/>
+  <circle cx="722" cy="396" r="10" fill="#6FF7FF"/>
+  <rect x="486" y="530" width="280" height="108" rx="28" fill="#0B1E35" stroke="#48EFFF" stroke-opacity="0.2"/>
+  <rect x="514" y="562" width="76" height="28" rx="14" fill="#143552"/>
+  <rect x="606" y="562" width="64" height="28" rx="14" fill="#143552"/>
+  <rect x="686" y="562" width="48" height="28" rx="14" fill="#143552"/>
+  <defs>
+    <linearGradient id="bg" x1="28" y1="28" x2="832" y2="732" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1830"/>
+      <stop offset="1" stop-color="#06101D"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 122) rotate(90) scale(92)">
+      <stop stop-color="#1F5DFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#1F5DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(196 190) rotate(90) scale(112)">
+      <stop stop-color="#6FF7FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#6FF7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(612 572) rotate(90) scale(134)">
+      <stop stop-color="#14D8FF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#14D8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focusense Pro | How It Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="working">
+    <canvas id="particles"></canvas>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="navbar">
+          <a class="brand" href="index.html">
+            <div class="brand-mark">FP</div>
+            <div class="brand-copy">
+              <strong>Focusense Pro</strong>
+              <span>AI Academic Showcase</span>
+            </div>
+          </a>
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+          <div class="nav-links">
+            <a href="index.html" data-page="home">Home</a>
+            <a href="about.html" data-page="about">About</a>
+            <a href="features.html" data-page="features">Features</a>
+            <a href="working.html" data-page="working">Working</a>
+            <a href="technologies.html" data-page="technologies">Technologies</a>
+            <a href="results.html" data-page="results">Results</a>
+            <a href="purchase.html" data-page="purchase">Purchase</a>
+            <a href="contact.html" data-page="contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="content-section">
+          <div class="section-head reveal">
+            <div class="eyebrow">System Flow</div>
+            <h1>From Input To Intelligent Output</h1>
+            <p class="lead">
+              The project follows a clear and easy-to-understand process. It collects user activity,
+              processes it with AI techniques, and then converts it into final reports and focus
+              insights.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal" data-step="1">
+              <h3>Input Capture</h3>
+              <p>
+                Webcam frames, gesture signals, and typing behavior are collected from the user
+                during the session.
+              </p>
+            </div>
+            <div class="timeline-item reveal delay-1" data-step="2">
+              <h3>Image & Behavior Processing</h3>
+              <p>
+                The collected data is analyzed using computer vision and activity interpretation
+                methods to detect useful patterns.
+              </p>
+            </div>
+            <div class="timeline-item reveal delay-2" data-step="3">
+              <h3>Emotion & Gesture Recognition</h3>
+              <p>
+                The system identifies emotional state and tracks visible hand or gesture movement to
+                understand user interaction more clearly.
+              </p>
+            </div>
+            <div class="timeline-item reveal" data-step="4">
+              <h3>Score Calculation</h3>
+              <p>
+                Signals from multiple modules are combined to generate focus and productivity
+                measurements.
+              </p>
+            </div>
+            <div class="timeline-item reveal delay-1" data-step="5">
+              <h3>Output & Insights</h3>
+              <p>
+                Reports, summaries, and visual feedback are displayed so the final result becomes
+                easy to interpret.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="steps-grid">
+            <div class="flow-card reveal">
+              <div class="icon-badge">IN</div>
+              <h3>Input Layer</h3>
+              <p>
+                Camera feed, gesture observation, and keyboard behavior work as the main data
+                sources for the system.
+              </p>
+            </div>
+            <div class="flow-card reveal delay-1">
+              <div class="icon-badge">PR</div>
+              <h3>Processing Layer</h3>
+              <p>
+                AI models and computer vision libraries interpret emotion, posture, and action
+                timing from the collected input.
+              </p>
+            </div>
+            <div class="flow-card reveal delay-2">
+              <div class="icon-badge">AN</div>
+              <h3>Analysis Layer</h3>
+              <p>
+                Detected signals are compared and scored to understand whether attention is strong,
+                average, or declining.
+              </p>
+            </div>
+            <div class="flow-card reveal">
+              <div class="icon-badge">OP</div>
+              <h3>Output Layer</h3>
+              <p>
+                The final interface presents smart insights, focus score, and session interpretation
+                in a clear academic format.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="insight-layout">
+            <div class="image-frame reveal">
+              <img src="assets/workflow-visual.svg" alt="System workflow illustration" />
+              <div class="image-caption">Input capture, AI analysis, scoring, and insight output in one flow.</div>
+            </div>
+            <div class="glass-card reveal delay-1">
+              <h2>Simple Flow For Viva Presentation</h2>
+              <p>
+                This visual makes it easier to explain the project in a step-by-step manner without
+                going too deep into technical complexity.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-panel">
+          <span>Clear flow: input, processing, analysis, and insight delivery</span>
+          <span><span data-year></span> | Focusense Pro</span>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
